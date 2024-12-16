@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GYm title</title>
+    <title>My fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/fitn.jpg');
+
+
+        }
+
+        .left {
+            position: absolute;
+            top: 18pxpx;
+            left: 34px;
+            display: inline-block;
+            border: 2px solid red;
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 18px auto;
+            border: 2px solid green;
+
+        }
+
+        .right {
+            position: absolute;
+            top: 18px;
+            right: 34px;
+            display: inline-block;
+            border: 2px solid yellow;
+
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>hello world</h1>
-    
+    <header>
+        <!-- log0 -->
+        <div class="left">i'm left</div>
+        <!-- navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Aout us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- button/ searching -->
+        <div class="right">i'm right</div>
+    </header>
+
 </body>
+
 </html>
